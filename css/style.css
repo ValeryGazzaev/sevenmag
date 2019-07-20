@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Russo+One|Stalemate&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('core.css');
+@import url('blocks/header.css');
+@import url('blocks/animations.css');
+@import url('blocks/content-left.css');
+@import url('blocks/content-middle.css');
+@import url('blocks/content-right.css');
+@import url('blocks/footer.css');

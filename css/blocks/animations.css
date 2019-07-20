@@ -1,0 +1,37 @@
+@keyframes moving {
+	0% {
+	transform: translateX(-1270px);  }
+	100% { 
+	transform: translateX(165px); }
+}
+.news-feed-line {
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+/* Slider */
+
+/* @keyframes slider {
+	0% {transform: translateX(0);
+	}
+	20% {transform: translateX(-252px);
+	}
+	40% {transform: translateX(-504px);
+	}
+	60% {transform: translateX(-756px);
+	}
+	80% {transform: translateX(-1008px);
+	}
+	100% {transform: translateX(-252px); 
+	}
+}
+
+.header-slider-slides {
+	animation-name: slider;
+	animation-duration: 25s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+} */
